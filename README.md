@@ -1,2 +1,2 @@
 # Wheel-Of-Dinner
-Run in python 2.7.18
+run this command in terminal before use, sudo apt-get install python3-tk
