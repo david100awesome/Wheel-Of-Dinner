@@ -1,3 +1,15 @@
+import sys
+
+py_version = int(sys.version[0])
+
+# If the python version is lower than 3, use Python 2 import
+if py_version < 3:
+    import Tkinter
+
+# Otherwise use Python 3 import 
+else:
+    import tkinter
+
 from turtle import *
 import random
 
